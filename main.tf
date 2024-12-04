@@ -163,7 +163,7 @@ resource "aws_security_group" "lb_sg" {
 
 # Target Group for the Load Balancer
 resource "aws_lb_target_group" "TG" {
-  name     = "TG1"
+  name     = "TG"
   port     = 80
   protocol = "HTTP"
   vpc_id   = aws_vpc.main.id
