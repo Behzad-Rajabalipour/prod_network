@@ -26,7 +26,7 @@ output "public_route_table" {
 }
 
 output "target_group" {
-  value = aws_lb_target_group.tg
+  value = aws_lb_target_group.TG
 }
 
 output "ALB_SG_id" {
